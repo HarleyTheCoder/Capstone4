@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" ref="stylesheet"/>
+<meta charset="ISO-8859-1">
+<title>Shopping List</title>
+</head>
+<body>
+	<div>
+	<h1>Shopping List</h1>
+	<p>
+	These are the products and their prices. Click "Add Item" to add one to your shopping list.
+	 Click "Check Out" to complete the purchase and see your total. You can also remove items there.
+	</p>
+	</div>
+
+	<div id="list_section" style=" border: 1px solid; float: left ">
+	<table id="item_table">
+	<tr>
+	<th><h2>Item List</h2></th>
+	</tr>
+	<tr>
+	<th>Item Name</th>
+	<th>Item Price</th>
+	<th></th>	
+	</tr>
+	</table>
+	<p id="item_info"></p>
+	<button id="checkOutButton" onclick="checkOut()">Check Out</button>
+	</div>
+
+	<div id="check_out_section" style="display: inline-block; border: 1px solid; ">
+
+	<p id="list-section"></p>
+	<!--<table id="check_out_table">
+	<tr><h2>Your Cart</h2></tr>
+	<p id="display-text"></p>
+	<tr id="list-display">
+	<th>Quantity</th>
+	<th>Item Name</th>
+	<th>Item Price</th>
+	<th></th>	
+	</tr>
+	</table>
+	</div>-->
+
+	<script src="script.js"></script>
+	
+</div>
+</body>
+</html>
